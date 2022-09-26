@@ -67,7 +67,7 @@ stages:
       artifact: drop
 
 - stage: 'Dev'
-  displayName: 'Deploy to the dev environment 1.0'
+  displayName: 'Deploy to the dev environment 1.1'
   dependsOn: Build
   condition: |
     and
